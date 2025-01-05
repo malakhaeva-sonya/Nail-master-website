@@ -1,0 +1,13 @@
+/*ROOT*/
+
+:root {
+    --text-color: rgba(99, 93, 86, 0.705);
+    --background-color:rgba(167, 160, 151, 0.452); 
+    --button-bck-color:rgba(59, 55, 49, 0.322); 
+    --button-bck-color2:rgba(43, 40, 36, 0.322); 
+    --button-text-color: rgba(124, 120, 115, 0.418); 
+    --button-text-color2:rgba(255, 255, 255, 0.726); 
+    --menu-color:rgba(255, 255, 255, 0.87); 
+    --dark-color:rgba(61, 56, 50, 0.637); 
+    --dark-color2:rgba(37, 34, 31, 0.952);
+}

@@ -1,0 +1,147 @@
+/*MEDIA QUERY*/
+
+@media only screen and (max-width:1375px) { 
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+/*GRID PHOTOS*/
+
+    .photos {
+        column-gap: 30px;
+        row-gap: 20px;
+        display: grid;
+        grid-template-rows: 550px 550px 550px;
+        grid-template-columns: 550px 550px;
+        grid-template-areas: 
+        "a b"
+        "c d"
+        "f g"
+        ;       
+    }
+}
+
+
+@media only screen and (max-width:1179px) {
+
+    .container {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+/*TOP NAVIGATION BAR*/
+
+    .navbar .left h1 {
+        font-size: 1.7rem;
+     }
+
+    .navbar .right a {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .photos {
+        column-gap: 30px;
+        row-gap: 20px;
+        display: grid;
+        grid-template-rows: 500px;
+        grid-template-columns: 500px;
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        "f"
+        "g"
+        ;       
+    }
+
+/*FOOTER*/
+
+    .footer {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:802px) {
+
+/*TOP NAVIGATION BAR*/
+
+    .navbar .right {
+        display: none;
+    }
+    
+    .navbar .right-icons {
+        display: inline;
+    }
+
+    .navbar .right-icons img {
+        padding-left: 10px;
+        opacity: 0.5;
+    }
+
+    .navbar .right-icons img:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+/*FOOTER*/
+
+    .footer {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width:553px) {
+
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+/*TOP NAVIGATION BAR*/
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .navbar .right-icons {
+        display: none;
+    }
+
+    .navbar .burger {
+        display: inline;
+    }
+
+    .navbar .burger:hover {
+        cursor: pointer;
+    }
+
+    .photos {
+        grid-template-rows: 350px;
+        grid-template-columns: 350px; 
+        gap: 10px;
+    }
+
+/*FOOTER-BUTTON*/
+
+    .footer h4 {
+        font-size: 0.8rem;
+    }
+
+    .footer-button a {
+        font-size: 0.9rem;
+    }
+
+   .footer-button a:hover {
+        transform: scale(1.1);
+    }
+}

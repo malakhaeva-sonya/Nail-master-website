@@ -1,0 +1,90 @@
+/*DIV CONTACT*/
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts .contacts_switch {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    padding-bottom: 1px;
+    font-weight: 300;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.contacts .contacts_switch:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding-bottom: 7px;
+}
+
+.contacts h2 {
+    font-weight: 400;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.contacts h2:hover {
+    opacity: 0.7;
+    cursor: default;
+}
+
+.contacts p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.contacts img {
+    width: 19px;
+}
+
+.contacts img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+/*FOOTER-BUTTON*/
+
+.footer-button {
+    margin-top: 30px;
+}
+
+
+/*FOOTER*/
+
+.footer-containet {
+    position: relative;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -30px;
+    background-color: var(--menu-color);
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 1.3rem;
+}
+
+.footer img {
+    padding-left: 3px;
+    width: 19px;
+    transition: all;
+    transition: 0.2s all;
+}
+
+.footer img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
